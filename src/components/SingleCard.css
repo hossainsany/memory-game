@@ -1,0 +1,18 @@
+.single-card {
+    position: relative;
+    border-radius: 5px;
+}
+.single-card img {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    border: 2px soild #fff !important;
+}
+.single-card .front {
+    position: absolute;
+    transform: rotateY(90deg);
+    transition: all 250ms ease-in;
+}
+.single-card .flipped .front {
+    transform: rotateY(0deg);
+}
